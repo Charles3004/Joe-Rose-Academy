@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Joe-Rose Academy</title>
+    <link rel="stylesheet" href="index.css" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+<body>
+
+    <header class="topbar">
+        <div class="logo">
+            <h1>Joe-Rose Academy</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="programs.html">Programs</a></li>
+                <li><a href="facilities.html">Facilities</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <img src="images/school-front.jpg" alt="Joe-Rose Academy Front View">
+        <p>We'd love to hear from you! Reach out via the form below or through our contact details.</p>
+
+        <div class="contact-container">
+            <!-- Contact Form -->
+            <form action="#" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required>
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Your message..." required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Contact Details -->
+            <div class="contact-details">
+                <h3>Our Address</h3>
+                <p><i class="fas fa-map-marker-alt"></i> Opposite GTBank, Old Otukpo Road, Makurdi, Benue State, Nigeria</p>
+                <p><i class="fas fa-phone-alt"></i> Tel: 07061811394</p>
+                <p><i class="fas fa-envelope"></i> Email: info@joeroseacademy.com</p>
+
+                <h3>Follow Us</h3>
+                <p>
+                    <a href="#"><i class="fab fa-facebook"></i> Facebook</a> |
+                    <a href="#"><i class="fab fa-instagram"></i> Instagram</a> |
+                    <a href="#"><i class="fab fa-twitter"></i> Twitter</a>
+                </p>
+            </div>
+        </div>
+
+        <!-- Google Map Embed -->
+        <div class="map">
+            <h3>Visit Us</h3>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3941.1731945830196!2d8.515213774676598!3d7.73238859228683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104cd6c47b3a2e69%3A0x37e8b7a1e1a8e8d7!2sGTBank%2C%20Makurdi!5e0!3m2!1sen!2sng!4v1710804056451!5m2!1sen!2sng" 
+            width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- WhatsApp Chat Button -->
+    <a href="https://wa.me/2347061811394" class="whatsapp-chat" target="_blank">
+        <img src="images/whatsapp-icon.svg" alt="Chat with us on WhatsApp">
+    </a>
+
+    <!-- Live Chat Box -->
+    <div id="chat-box">
+        <div class="chat-header">💬 Chat with Us</div>
+        <div class="chat-body">
+            <p>Hello! How can we assist you?</p>
+        </div>
+        <input type="text" id="chat-input" placeholder="Type your message...">
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Joe-Rose Academy | Opposite GTBank, Old Otukpo Road, Makurdi, Benue State</p>
+        <p>Tel: 07061811394</p>
+    </footer>
+
+    <script src="js/chat.js"></script>
+
+</body>
+</html>
